@@ -1,0 +1,37 @@
+ADD
+5
+Lewis
+T100
+Yaboi
+T
+1998
+Hardwood
+6 6
+H P N
+ADD
+3
+Washington
+Franklin
+Rooter
+S
+1776
+Howitzer
+3 4
+N N N
+ADD
+9
+Brant
+Christopher
+Daniel
+S
+1997
+Smoothest
+8 8 
+C P H
+LIST
+LOOKUP
+3
+DELETE
+5
+LIST
+QUIT

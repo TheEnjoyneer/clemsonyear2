@@ -1,0 +1,24 @@
+
+/*Numbers seem consistent for all mins, maxes,
+  and averages, so I believe this should be fine.
+  Otherwise I don't know how to provide my test output
+  because this is all we have.
+*/
+
+Statistics for the Event Queue:				
+Min time in Event Queue: 0.000000 seconds
+Max time in Event Queue: 0.012812 seconds
+Average time in Event Queue: 0.000014 seconds
+
+Statistics for Disk Move times:
+Min time for reading: 0.003000 seconds
+Max time for reading: 0.013031 seconds
+Average time for reading: 0.005099 seconds
+
+Statistics for Total Time:
+Min time per request: 0.003000 seconds
+Max time per request: 0.022402 seconds
+Average time per request: 0.005113 seconds
+
+End Statistics.
+

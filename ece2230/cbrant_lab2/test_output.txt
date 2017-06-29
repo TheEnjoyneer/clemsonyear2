@@ -1,0 +1,243 @@
+/* test_output.txt
+ * Christopher Brant
+ * cbrant
+ * ECE 2230
+ * Section 001
+ * Spring 2017
+ * Programming Assignment #2
+ * Due on 2/15/17 at 11:59 PM
+ * Professor Walt Ligon
+*/
+
+// This is the file containing tested inputs and corresponding outputs
+
+Commands:
+> ADD
+> DELETE key-data
+> LOOKUP key-data
+> LIST
+> HELP 
+> QUIT
+
+// The output below utilizes the following input:
+/* 
+ADD
+5
+Lewis
+T100
+Yaboi
+T
+1998
+Hardwood
+6 6
+H P N
+*/
+
+Enter your desired item key number, greater than 0: 
+Enter guitar make: 
+Enter guitar model: 
+Enter guitar submodel: 
+Enter guitar body type.
+Choose from:
+S (Solid)
+A (Arch-Top Hollow)
+T (Semi-Hollow)
+Enter here: 
+Enter manufacture year: 
+Enter finish description: 
+Enter number of strings, a space, then number of pickups: 
+Enter the neck, middle, and bridge pickup types separated by spaces.
+Choose from
+H (Humbucker)
+C (Single Coil)
+P (P90)
+F (Filtertron)
+N (None)
+Enter here: 
+Data added.
+
+// The output below utilizes the follow input:
+/*
+ADD
+3
+Washington
+Franklin
+Rooter
+S
+1776
+Howitzer
+3 4
+N N N
+*/
+
+Enter your desired item key number, greater than 0: 
+Enter guitar make: 
+Enter guitar model: 
+Enter guitar submodel: 
+Enter guitar body type.
+Choose from:
+S (Solid)
+A (Arch-Top Hollow)
+T (Semi-Hollow)
+Enter here: 
+Enter manufacture year: 
+Enter finish description: 
+Enter number of strings, a space, then number of pickups: 
+Enter the neck, middle, and bridge pickup types separated by spaces.
+Choose from
+H (Humbucker)
+C (Single Coil)
+P (P90)
+F (Filtertron)
+N (None)
+Enter here: 
+Data added.
+
+// The output below utilizes the following input:
+/*
+ADD
+9
+Brant
+Christopher
+Daniel
+S
+1997
+Smoothest
+8 8 
+C P H
+*/
+
+Enter your desired item key number, greater than 0: 
+Enter guitar make: 
+Enter guitar model: 
+Enter guitar submodel: 
+Enter guitar body type.
+Choose from:
+S (Solid)
+A (Arch-Top Hollow)
+T (Semi-Hollow)
+Enter here: 
+Enter manufacture year: 
+Enter finish description: 
+Enter number of strings, a space, then number of pickups: 
+Enter the neck, middle, and bridge pickup types separated by spaces.
+Choose from
+H (Humbucker)
+C (Single Coil)
+P (P90)
+F (Filtertron)
+N (None)
+Enter here: 
+Data added.
+
+// The output below utilizes the following input:
+/*
+LIST
+*/
+
+Guitar 3
+Make: Washington
+Model: Franklin
+Submodel: Rooter
+Guitar body type: Solid Body
+Manufacture Year: 1776
+Finish description: Howitzer
+Number of strings: 3
+Number of pickups: 4
+Neck pickup type: None
+Middle pickup type: None
+Bridge pickup type: None
+
+
+Guitar 5
+Make: Lewis
+Model: T100
+Submodel: Yaboi
+Guitar body type: Semi Hollow (thinline)
+Manufacture Year: 1998
+Finish description: Hardwood
+Number of strings: 6
+Number of pickups: 6
+Neck pickup type: Humbucker
+Middle pickup type: P90
+Bridge pickup type: None
+
+
+Guitar 9
+Make: Brant
+Model: Christopher
+Submodel: Daniel
+Guitar body type: Solid Body
+Manufacture Year: 1997
+Finish description: Smoothest
+Number of strings: 8
+Number of pickups: 8
+Neck pickup type: Single Coil
+Middle pickup type: P90
+Bridge pickup type: Humbucker
+
+// The output below utilizes the following input:
+/*
+LOOKUP
+3
+*/
+
+Enter item key to search for, greater than 0: 
+Guitar 3
+Make: Washington
+Model: Franklin
+Submodel: Rooter
+Guitar body type: Solid Body
+Manufacture Year: 1776
+Finish description: Howitzer
+Number of strings: 3
+Number of pickups: 4
+Neck pickup type: None
+Middle pickup type: None
+Bridge pickup type: None
+
+// The output below utilizes the following input:
+/*
+DELETE
+5
+*/
+
+Enter item key to find and delete, greater than 0: 
+Data deleted.
+
+// The output below utilizes the following input:
+/*
+LIST
+*/
+
+Guitar 3
+Make: Washington
+Model: Franklin
+Submodel: Rooter
+Guitar body type: Solid Body
+Manufacture Year: 1776
+Finish description: Howitzer
+Number of strings: 3
+Number of pickups: 4
+Neck pickup type: None
+Middle pickup type: None
+Bridge pickup type: None
+
+
+Guitar 9
+Make: Brant
+Model: Christopher
+Submodel: Daniel
+Guitar body type: Solid Body
+Manufacture Year: 1997
+Finish description: Smoothest
+Number of strings: 8
+Number of pickups: 8
+Neck pickup type: Single Coil
+Middle pickup type: P90
+Bridge pickup type: Humbucker
+
+// Final command used here:
+/*
+QUIT
+*/
