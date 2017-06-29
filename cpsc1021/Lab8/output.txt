@@ -1,0 +1,1 @@
+The oldest date in the input file is 10/1/1963

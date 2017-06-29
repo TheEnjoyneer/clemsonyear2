@@ -1,0 +1,97 @@
+In file included from part1.c:3:
+./functions.c:5:28: error: unknown type name 'header_t'
+void readHeader(FILE* ptr, header_t *hdr)
+                           ^
+./functions.c:11:30: error: unknown type name 'header_t'
+void createHeader(FILE* ptr, header_t *hdr)
+                             ^
+./functions.c:17:28: error: unknown type name 'header_t'
+void readPixels(FILE* ptr, header_t *hdr, pixel_t **pix)
+                           ^
+./functions.c:17:43: error: unknown type name 'pixel_t'
+void readPixels(FILE* ptr, header_t *hdr, pixel_t **pix)
+                                          ^
+./functions.c:23:9: error: use of undeclared identifier 'j'
+    for(j = 0; j < hdr->width; j++)
+        ^
+./functions.c:23:16: error: use of undeclared identifier 'j'
+    for(j = 0; j < hdr->width; j++)
+               ^
+./functions.c:23:32: error: use of undeclared identifier 'j'
+    for(j = 0; j < hdr->width; j++)
+                               ^
+./functions.c:25:37: error: use of undeclared identifier 'j'
+       fscanf(ptr, "%c%c%c", pix[i][j].r, pix[i][j].g, pix[i][j].b);
+                                    ^
+./functions.c:25:50: error: use of undeclared identifier 'j'
+       fscanf(ptr, "%c%c%c", pix[i][j].r, pix[i][j].g, pix[i][j].b);
+                                                 ^
+./functions.c:25:63: error: use of undeclared identifier 'j'
+       fscanf(ptr, "%c%c%c", pix[i][j].r, pix[i][j].g, pix[i][j].b);
+                                                              ^
+./functions.c:30:29: error: unknown type name 'header_t'
+void writePixels(FILE* ptr, header_t *hdr, pixel_t **pix)
+                            ^
+./functions.c:30:44: error: unknown type name 'pixel_t'
+void writePixels(FILE* ptr, header_t *hdr, pixel_t **pix)
+                                           ^
+part1.c:26:3: error: use of undeclared identifier 'header_t'
+  header_t hdr;
+  ^
+part1.c:27:22: error: use of undeclared identifier 'hdr'
+  readHeader(input, &hdr);
+                     ^
+part1.c:28:25: error: use of undeclared identifier 'hdr'
+  createHeader(output, &hdr);
+                        ^
+part1.c:30:5: error: use of undeclared identifier 'pixel_t'
+    pixel_t **image = (pixel_t **)malloc(hdr.height * sizeof(pixel_t *));
+    ^
+part1.c:30:15: error: use of undeclared identifier 'image'
+    pixel_t **image = (pixel_t **)malloc(hdr.height * sizeof(pixel_t *));
+              ^
+part1.c:30:34: error: expected expression
+    pixel_t **image = (pixel_t **)malloc(hdr.height * sizeof(pixel_t *));
+                                 ^
+part1.c:30:24: error: use of undeclared identifier 'pixel_t'
+    pixel_t **image = (pixel_t **)malloc(hdr.height * sizeof(pixel_t *));
+                       ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+functions.c:5:28: error: unknown type name 'header_t'
+void readHeader(FILE* ptr, header_t *hdr)
+                           ^
+functions.c:11:30: error: unknown type name 'header_t'
+void createHeader(FILE* ptr, header_t *hdr)
+                             ^
+functions.c:17:28: error: unknown type name 'header_t'
+void readPixels(FILE* ptr, header_t *hdr, pixel_t **pix)
+                           ^
+functions.c:17:43: error: unknown type name 'pixel_t'
+void readPixels(FILE* ptr, header_t *hdr, pixel_t **pix)
+                                          ^
+functions.c:23:9: error: use of undeclared identifier 'j'
+    for(j = 0; j < hdr->width; j++)
+        ^
+functions.c:23:16: error: use of undeclared identifier 'j'
+    for(j = 0; j < hdr->width; j++)
+               ^
+functions.c:23:32: error: use of undeclared identifier 'j'
+    for(j = 0; j < hdr->width; j++)
+                               ^
+functions.c:25:37: error: use of undeclared identifier 'j'
+       fscanf(ptr, "%c%c%c", pix[i][j].r, pix[i][j].g, pix[i][j].b);
+                                    ^
+functions.c:25:50: error: use of undeclared identifier 'j'
+       fscanf(ptr, "%c%c%c", pix[i][j].r, pix[i][j].g, pix[i][j].b);
+                                                 ^
+functions.c:25:63: error: use of undeclared identifier 'j'
+       fscanf(ptr, "%c%c%c", pix[i][j].r, pix[i][j].g, pix[i][j].b);
+                                                              ^
+functions.c:30:29: error: unknown type name 'header_t'
+void writePixels(FILE* ptr, header_t *hdr, pixel_t **pix)
+                            ^
+functions.c:30:44: error: unknown type name 'pixel_t'
+void writePixels(FILE* ptr, header_t *hdr, pixel_t **pix)
+                                           ^
+12 errors generated.

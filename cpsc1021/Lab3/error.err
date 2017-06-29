@@ -1,0 +1,69 @@
+In file included from part1.c:3:0:
+functions.c:5:28: error: unknown type name ‘header_t’
+ void readHeader(FILE* ptr, header_t *hdr)
+                            ^
+functions.c:11:30: error: unknown type name ‘header_t’
+ void createHeader(FILE* ptr, header_t *hdr)
+                              ^
+functions.c:17:28: error: unknown type name ‘header_t’
+ void readPixels(FILE* ptr, header_t *hdr, pixel_t **pix)
+                            ^
+functions.c:17:43: error: unknown type name ‘pixel_t’
+ void readPixels(FILE* ptr, header_t *hdr, pixel_t **pix)
+                                           ^
+functions.c:30:29: error: unknown type name ‘header_t’
+ void writePixels(FILE* ptr, header_t *hdr, pixel_t **pix)
+                             ^
+functions.c:30:44: error: unknown type name ‘pixel_t’
+ void writePixels(FILE* ptr, header_t *hdr, pixel_t **pix)
+                                            ^
+part1.c: In function ‘main’:
+part1.c:26:3: error: unknown type name ‘header_t’
+   header_t hdr;
+   ^
+part1.c:27:3: warning: implicit declaration of function ‘readHeader’ [-Wimplicit-function-declaration]
+   readHeader(input, &hdr);
+   ^
+part1.c:28:3: warning: implicit declaration of function ‘createHeader’ [-Wimplicit-function-declaration]
+   createHeader(output, &hdr);
+   ^
+part1.c:30:5: error: unknown type name ‘pixel_t’
+     pixel_t **image = (pixel_t **)malloc(hdr.height * sizeof(pixel_t *));
+     ^
+part1.c:30:24: error: ‘pixel_t’ undeclared (first use in this function)
+     pixel_t **image = (pixel_t **)malloc(hdr.height * sizeof(pixel_t *));
+                        ^
+part1.c:30:24: note: each undeclared identifier is reported only once for each function it appears in
+part1.c:30:34: error: expected expression before ‘)’ token
+     pixel_t **image = (pixel_t **)malloc(hdr.height * sizeof(pixel_t *));
+                                  ^
+part1.c:31:24: error: request for member ‘height’ in something not a structure or union
+     for (i = 0; i < hdr.height; i++)
+                        ^
+part1.c:32:29: error: expected expression before ‘)’ token
+         image[i] = (pixel_t*)malloc(hdr.width * sizeof(pixel_t));
+                             ^
+part1.c:34:3: warning: implicit declaration of function ‘readPixels’ [-Wimplicit-function-declaration]
+   readPixels(input, hdr,image);
+   ^
+part1.c:35:3: warning: implicit declaration of function ‘writePixels’ [-Wimplicit-function-declaration]
+   writePixels(output, &hdr,image);
+   ^
+functions.c:5:28: error: unknown type name ‘header_t’
+ void readHeader(FILE* ptr, header_t *hdr)
+                            ^
+functions.c:11:30: error: unknown type name ‘header_t’
+ void createHeader(FILE* ptr, header_t *hdr)
+                              ^
+functions.c:17:28: error: unknown type name ‘header_t’
+ void readPixels(FILE* ptr, header_t *hdr, pixel_t **pix)
+                            ^
+functions.c:17:43: error: unknown type name ‘pixel_t’
+ void readPixels(FILE* ptr, header_t *hdr, pixel_t **pix)
+                                           ^
+functions.c:30:29: error: unknown type name ‘header_t’
+ void writePixels(FILE* ptr, header_t *hdr, pixel_t **pix)
+                             ^
+functions.c:30:44: error: unknown type name ‘pixel_t’
+ void writePixels(FILE* ptr, header_t *hdr, pixel_t **pix)
+                                            ^
