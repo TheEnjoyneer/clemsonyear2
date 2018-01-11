@@ -8,11 +8,11 @@ Any comments, constructive criticism, or concerns can be emailed to me or commen
 Contents should include code written for Clemson's classes on:
   > `ECE 2320 Systems Programming Concepts (Advanced C Language Concepts)`
   
-  > `ECE 2720 Computer Organization Lab (Intel x86 Assembly Language)`
+  > `ECE 2730 Computer Organization Lab (Intel x86 Assembly Language)`
   
   > `ECE 2220 Computer Systems Programming (C Language Data Structures and Algorithms)`
   
-  > `CPSC 1020 Intro to Object-Oriented Programming (C++ Language and Concepts)`
+  > `CPSC 1020/1021 Intro to Object-Oriented Programming (C++ Language and Concepts)`
   
   All constructive comments are appreciated.
     - TheEnjoyneer
